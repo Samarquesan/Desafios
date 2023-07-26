@@ -3,4 +3,4 @@
 
 - [Projeto 05][1]
 
-[1]: [https://github.com/Samarquesan/Desafios/blob/main/desafio05.html]
+[1]: [desafio05]
