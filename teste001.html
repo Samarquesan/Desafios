@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Input Text para Divt</title>
+</head>
+    <body>
+        <label for="textoInput">Digite um texto:</label>
+        <input type="text" id="textoInput" />
+        <button onclick="exibirTexto()">Exibir na Div</button>
+        <div id="textoDiv"></div>
+
+        <script>
+            function exibirTexto() {
+                // Obtém o valor do campo de entrada de texto
+                const texto = document.getElementById('textoInput').value;
+
+                // Exibe o valor na div
+                document.getElementById('textoDiv').innerText = texto;
+            }
+        </script>
+    </body>
+</html>
